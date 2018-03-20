@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"
+        android:id="@+id/yourName"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Score is:"
+        android:layout_below="@+id/yourName"
+        android:id="@+id/prompt"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/score"
+        android:hint="3"
+        android:paddingLeft="5dp"
+        android:textSize="30dp"
+        android:layout_below="@+id/prompt" />
+
+
+
+</RelativeLayout>
